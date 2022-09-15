@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+:root{
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+}
+
+body{
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+*{
+    margin: 0 ;
+    padding: 0;
+    /* outline: solid; */
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+/*section*/
+.home-section{
+    background: var(--bg-black-900);
+    min-height: 100vh;
+    display: block;
+    position: fixed;
+    left:270px;  /*ขนาดห่างมาจากทางซ้าย*/
+    top: 0;
+    right: 0; 
+    opacity: 1;        
+    z-index: 1;
+} 
+
+/*aside*/
+.aside{
+    width: 270px;
+    background: var(--bg-black-100);
+    position: fixed;
+    height: 100%;
+    left: 0;
+    padding: 30px;
+    top: 0; 
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid red; */
+}
+
+.aside .lg{
+    position: fixed;
+    top: 50px;
+    font-size: 30px ;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+
+.aside .lg a{
+    color: var(--text-black-900);
+
+}
+
+#lg1{
+    font-size: 50px;
+}
+
+.aside .nav{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+
+.aside .nav li{
+    margin-bottom: 30px;
+    
+}
+
+.Nav-1{
+    position: relative;
+    margin-left: 20px;
+    
+}
+
+.aside .nav li a{
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--text-black-900);
+    color: var(--text-black-900);
+    display: inline-block;
+    padding: 5px 15px;
+}
