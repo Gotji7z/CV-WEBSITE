@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cv Website</title>
+    <!--CSS FILES-->
+    <link rel="stylesheet" href="style-contract.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <!--Main Container start-->
+    <div class="main-container">
+        <!--Aside Start-->
+        <div class="aside">
+            <div class="logo">
+                <a href="#" class="lg"><span id="lg1">G</span>otJi</a>
+                <div class="nav-toggler">
+                    <span></span>
+                </div>
+                <ul class="nav">
+                    <li><a href="index.html" target="_blank"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="index-about.html" target="_blank"><i class="fa fa-user"></i>About</a></li>
+                    <li><a href="#"><i class="fa fa-circle-user"></i>Portfolio</a></li>
+                    <li><a href="index-contract.html"><i class="fa fa-phone"></i>Contract</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Aside End-->    
+
+        <!--Main content Start-->
+    <div class="main-content">
+        <!--Home section Start-->
+        <section class="home-section">
+            <div class="container1">
+                <h3>Contract me</h3><br>
+                        <div class="col1">
+                            <form id="contact_form" novalidate="novalidate"> 
+                                <div class>                                  
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="first_name">ชื่อ<span class="req">*</span></label>
+                                            <input type="text" class="form-control" id="first_name" name="first_name">
+                                        </div>
+                                    </div><br>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="last_name">นามสกุล<span class="req">*</span></label>
+                                            <input type="text" class="form-control" id="last_name" name="last_name">
+                                        </div>  
+                                    </div><br>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="phone">โทรศัพท์<span class="req">*</span></label>
+                                            <input type="text" class="form-control" id="phone" name="phone">
+                                        </div>
+                                    </div><br>
+        
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email">อีเมล<span class="req">*</span></label>
+                                            <input type="email" class="form-control" id="email" name="email">
+                                        </div>  <br>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="subject">หัวข้อติดต่อ<span class="req">*</span></label>
+                                            <input type="text" class="form-control" id="subject" name="subject">
+                                        </div><br>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="detail">รายละเอียดการติดต่อ<span class="req">*</span></label>
+                                            <textarea name="detail" class="form-control" id="detail" cols="30" rows="5"></textarea>
+                                        </div><br>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btnbtn-primary">ส่งข้อมูล</button>
+                            </form>
+                        </div>
+            </div>
+        </section>
+         <!--Home section End-->
+    </div>   
+    <!--Main content End-->
+    </div>
+    <!--Main Container End-->
+
+    <!--JS Files-->
+    <script src="app.js"></script>
+</body>
+</html>
